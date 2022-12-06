@@ -26,7 +26,7 @@ function calgastos (){
 
 function balancefinal() {
 
-    const {balance} = getValues()
+    const {balance} = calgastos ()
   
   
       if(balance < 0) {
