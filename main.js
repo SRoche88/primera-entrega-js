@@ -14,6 +14,7 @@ function Valores() {
 
 function calgastos() {
    
+  Valores()
  
     let gastos = parseInt(transporte) + parseInt(alojamiento) + parseInt(comida);
 
