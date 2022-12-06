@@ -30,11 +30,11 @@ function balancefinal() {
   
   
       if(balance < 0) {
-        alert ("tu presupuesto no es suficiente para esta viaje, te faltan $" +balance + "a seguir ahorrando");
+        alert ("tu presupuesto no es suficiente para viajar a " + destino + ", te faltan $" +balance + "a seguir ahorrando");
       }
       else if(balance > 0) {
        
-        alert("Felicitaciones podes relizar tu viaje, tenes un exedente de $" + balance + "puedes pasar por el giftshop");
+        alert("Felicitaciones podes relizar tu viaje a" + destino + ", tenes un exedente de $" + balance + "puedes pasar por el giftshop");
 
     }  
   }
