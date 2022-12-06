@@ -14,7 +14,6 @@ function Valores() {
 
 function calgastos() {
    
-    const { destino, presupuesto, transporte, alojamiento, comida} = Valores();
  
     let gastos = parseInt(transporte) + parseInt(alojamiento) + parseInt(comida);
 
@@ -25,10 +24,7 @@ function calgastos() {
 }
 
 function balancefinal() {
-
-    const {balance} = calgastos();
-  
-  
+    
       if(balance < 0) {
         alert ("tu presupuesto no es suficiente para viajar a " + destino + ", te faltan $" +balance + "a seguir ahorrando");
       }
